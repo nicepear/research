@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1686" started-at="2015-02-03T07:00:16Z" finished-at="2015-02-03T07:00:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1686" started-at="2015-02-03T07:00:16Z" finished-at="2015-02-03T07:00:18Z">
+      <class name="com.smart.dao.UserDaoTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.smart.dao.UserDaoTest@7064543b]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1358" started-at="2015-02-03T15:00:16Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-02-03T15:00:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.smart.dao.UserDaoTest@7064543b]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-02-03T15:00:16Z" finished-at="2015-02-03T15:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="hasMatchUser()[pri:0, instance:com.smart.dao.UserDaoTest@7064543b]" name="hasMatchUser" duration-ms="296" started-at="2015-02-03T15:00:17Z" finished-at="2015-02-03T15:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasMatchUser -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.smart.dao.UserDaoTest@7064543b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-02-03T15:00:17Z" finished-at="2015-02-03T15:00:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.smart.dao.UserDaoTest.hasMatchUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.smart.dao.UserDaoTest@7064543b]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-02-03T15:00:18Z" finished-at="2015-02-03T15:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.smart.dao.UserDaoTest@7064543b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-02-03T15:00:18Z" finished-at="2015-02-03T15:00:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.smart.dao.UserDaoTest.hasMatchUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- com.smart.dao.UserDaoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
